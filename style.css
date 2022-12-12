@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700&family=Open+Sans:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.main {
+  background-image: url("img/VNWeb/laranja.png");
+  background-size: 100% 100%;
+  height: 83vh;
+  color: #ffff;
+}
+.main h1 {
+  font-size: 3.5rem;
+  padding: 14% 0 0 5%;
+}
+.main a {
+  font-size: 2.1rem;
+  padding: 5% 0 0 5%;
+  font-weight: 100;
+
+}
+
+header {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.portflow {
+  font-size: 2rem;
+  margin-right: 540px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 360px;
+  margin-right: 50px;
+}
+li {
+  width: 10rem;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-style: oblique;
+  color: #c4c4c4;
+}
+
+li:hover {
+  cursor: pointer;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  transform: scale(1.2);
+}
+ul.negrito {
+font-weight: bolder;
+color: aquamarine;
+}
+.sessao-img {
+  display: flex;
+ 
+  max-width: 1366px;
+ }
+
+.figuras {
+ display: inline;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  margin-left: 100px;
+}
+
+.figuras img:hover {
+ transform: scale(1.1);
+  width: 20vw;
+}
+
+footer {
+  height: 20vh;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.redes-sociais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  max-width: 1024px;
+  margin: auto;
+}
+
+.box-text {
+  display: flex;
+}
+
+.box-text p {
+  padding-left: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1366px) {
+  .container-figuras {
+    margin: 0 auto 0 9%;
+  }
+
+  .figuras img {
+    width: 20vw;
+  }
+  .box-background h1 {
+    font-size: 4rem;
+    padding: 16% 0 0 1%;
+  }
+  .box-background p {
+    font-size: 2.1rem;
+    padding: 5% 0 0 1%;
+    font-weight: 100;
+  }
+  footer {
+    width: 100%;
+  }
+  .redes-sociais {
+
+  }
+  .redes-sociais img {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20px;
+  }
+  .direitos-autorais h3 {
+    font-size: 15px;
+  }
+  .direitos-autorais p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  ul {
+    display: none;
+  }
+  
+  .menu {
+    height: 10vh;
+    width: 20%;
+    background-color: #000;
+    background-image: url("assets/menubug.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: -13%;
+  }
+}
+@media (max-width: 600px) {
+  .figuras {
+    display: flex;
+    flex-direction: column;
+  }
+  .figuras img {
+    width: 40vw;
+  }
+  .main {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #7fdbd4;
+    height: 7vh;
+    margin: auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .main- {
+    background-image: url("/assets/laranjarecorte.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+  }
+
+  .figuras img {
+    width: 250px;
+  }
+
+  .figuras {
+    display: flex;
+    width: 425px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer {
+    width: 40%;
+  }
+
+}
